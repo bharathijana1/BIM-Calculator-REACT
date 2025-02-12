@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import HeroImg from '../src/Components/img/dietimg.png';
 
 const BimCalculator = () => {
     const [height, setHeight] = useState('');
@@ -50,7 +51,7 @@ const BimCalculator = () => {
         <div className="flex justify-center items-center h-screen bg-gray-50">
             <div className="flex flex-col lg:flex-row justify-around items-center mx-auto">
                 <div className="w-full md:w-1/2 lg:w-2/5 xl:w-3/5">
-                    <img src="../src/Components/img/dietimg.png" alt="BMI image" />
+                    <img src={HeroImg} alt="BMI image" />
                 </div>
                 <form
                     className="border shadow-md shadow-lime-300 flex flex-col p-3 m-5 w-full md:w-3/4 lg:w-1/2 xl:w-3/5 md:items-center gap-1 py-10 bg-white"
