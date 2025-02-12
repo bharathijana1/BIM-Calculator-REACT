@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import HeroImg from '../src/Components/img/dietimg.png';
+import HeroImg from './img/dietimg.png';
 
 const BimCalculator = () => {
     const [height, setHeight] = useState('');
